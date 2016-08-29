@@ -1,5 +1,4 @@
-#use "topfind";;
-#require "tsdl.top";;
+#require "tsdl";;
 #require "result";;
 
 open Tsdl
@@ -13,7 +12,8 @@ let main () = match Sdl.init Sdl.Init.video with
     | Ok w ->
         Sdl.delay 3000l;
         Sdl.destroy_window w;
-        Sdl.quit ();
-        exit 0
+        Sdl.quit ()
 
-let () = main ()
+let () = main ();;
+
+
