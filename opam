@@ -1,0 +1,12 @@
+opam-version: "1.2"
+name: "my-sdl"
+version: "0.0.1"
+maintainer: "Marek Bernat <marek.bernat@gmail.com>"
+authors: "Marek Bernat <marek.bernat@gmail.com>"
+homepage: "https://github.com/mbernat/ocaml-sdl"
+bug-reports: "https://github.com/mbernat/ocaml-sdl/issues"
+dev-repo: "https://github.com/mbernat/ocaml-sdl.git"
+build: ["bash" "build.sh"]
+depends: [
+  "ocamlfind" {build}
+]
